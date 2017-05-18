@@ -1,5 +1,5 @@
 import React from 'react'
-import ReactDom from 'react-dom'
+import ReactDOM from 'react-dom'
 import MyTitle from './MyTitle'
 
 
@@ -14,7 +14,7 @@ var MyFirstComponent = React.createClass({
         MyTitleFactory({ title: 'yay', color: 'peru' }),
         MyTitleFactory({ title: 'boo', color: 'tomato' }),
         MyTitleFactory({ title: 'hah', color: 'aquamarine' }),
-        MyTitleFactory({ title: 'eek', color: 'chocolate' })
+        MyTitleFactory({ title: 'eek', color: 'chocolate' }   )
       )
     )
   }
