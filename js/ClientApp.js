@@ -2,19 +2,19 @@ import React from 'react'
 import { render } from 'react-dom'
 import Landing from './Landing'
 import Search from './Search'
-import { HashRouter, Match } from 'react-router'
+import { BrowserRouter, Match } from 'react-router'
 import '../public/normalize.css'
 import '../public/style.css'
 
 const App = React.createClass({
   render () {
     return (
-      <HashRouter>
+      <BrowserRouter>
         <div className='app'>
           <Match exactly pattern='/' component={Landing} />
           <Match pattern='/search' component={Search} />
         </div>
-      </HashRouter>
+      </BrowserRouter>
     )
   }
 })
