@@ -1,5 +1,5 @@
 {
-  "name": "complete-intro-to-react",
+  "name": "complete-intro-to-react-2",
   "version": "1.0.0",
   "description": "A two day workshop on a complete intro to React",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "update-test": "npm run test -- -u",
     "build": "webpack",
     "dev": "webpack-dev-server",
-    "lint": "eslint js/**/*.js server.js",
+    "lint": "eslint js/**/*.js webpack.config.js",
     "watch": "webpack --watch",
     "build": "webpack"
   },
