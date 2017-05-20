@@ -11,8 +11,7 @@
     "build": "webpack",
     "dev": "webpack-dev-server",
     "lint": "eslint js/**/*.js webpack.config.js",
-    "watch": "webpack --watch",
-    "build": "webpack"
+    "watch": "webpack --watch"
   },
   "dependencies": {
     "axios": "0.15.2",
@@ -51,7 +50,7 @@
     "eslint-plugin-standard": "2.0.0",
     "jest": "15.1.1",
     "jsdom": "9.5.0",
-    "json-loader": "0.5.4",
+    "json-loader": "^0.5.4",
     "react-addons-test-utils": "15.3.2",
     "react-test-renderer": "15.3.2",
     "style-loader": "0.13.1",
