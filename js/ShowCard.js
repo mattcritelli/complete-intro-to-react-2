@@ -8,8 +8,7 @@ const ShowCard = React.createClass({
       poster: string,
       title: string,
       year: string,
-      description: string,
-      imdbID: string
+      description: string
     })
   },
   render () {
